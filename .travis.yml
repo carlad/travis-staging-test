@@ -2,6 +2,6 @@ os: linux
 dist: trusty
 sudo: false
 group: stable
-script: echo yeah
+script: "echo yeah"
 install: skip
 language: elm
