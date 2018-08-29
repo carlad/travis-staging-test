@@ -1,11 +1,7 @@
-sudo: false
+os: linux
 dist: trusty
-language: nix
-nix:
-    - 1.2.3
-    - 0.9.8
-    - 
-install: skip
+sudo: false
+group: stable
 script: echo yeah
-notifications:
-  email: never
+install: skip
+language: elm
